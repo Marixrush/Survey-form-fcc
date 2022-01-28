@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="mari.css" type="text/css" rel="stylesheet">
+        <body class="bg">
+          <div class="layer">
+          <h1 id="title">freeCodeCamp Survey Form</h1>
+          <p class='sub'>Thank you for taking time to help us improve the platform</p>
+      
+          <form id="form">
+      
+            <div class="fname">
+            <label for ="fname">Name</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Enter your name"><br><br>
+            </div>
+      
+            <div class="mail">
+            <label for ="email">Email</label><br>
+            <input type="text" id="email" name="email" placeholder="Enter your Email"><br><br>
+            </div>
+      
+            <div class="years">
+            <label for ="age">Age (Optional)</label><br>
+            <input type="text" id="age" name="age" placeholder="Age"<br><br><br>
+            </div>
+            
+            <div class="role">
+              <label for ="role">Which option best describes your current role?</label><br>
+            <select name="currentrole" id="role">
+              <option value="none" disabled selected value>Select current role</option>
+              <option value="student">Student</option>
+              <option value="fulltime">Full Time Job</option>
+              <option value="learner">Full Time Learner</option>
+              <option value="notsaying">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+            </div>
+            
+            <div class="rec"><br>
+              <label for ="recommendation">Would you recommend freeCodeCamp to a friend?</label><br>
+              <input type="radio" id="recommendation" name="friendrec" value="definitely">Definitely<br>
+              <input type="radio" id="recommendation" name="friendrec" value="maybe">Maybe<br>
+              <input type="radio" id="recommendation" name="friendrec" value="notsure">Not sure<br>
+            </div>
+            
+            <div class="fav"><br>
+              <label for="favoritepart">What is your favorite feature of freeCodeCamp?</label><br>
+              <select name="feature" id="favorites">
+                <option value="none" disabled selected value>Select an option</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="source">Open source</option>
+              </select>
+                </div>
+              
+              <div class="improve"><br>
+                <label for="improvement">What would you like to see improved? (Check all that apply)</label><br>
+              <input type="checkbox" name="improvement" id="improvement">Front-end Projects<br>
+            <input type="checkbox" name="improvement" id="improvement">Back-end Projects<br>
+          <input type="checkbox" name="improvement" id="improvement">Data Visualisation<br>
+                <input type="checkbox" name="improvement" id="improvement">Challenges<br>
+                <input type="checkbox" name="improvement" id="improvement">Open Source Community<br>
+                <input type="checkbox" name="improvement" id="improvement">Gitter help rooms<br>
+                <input type="checkbox" name="improvement" id="improvement">Videos<br>
+                <input type="checkbox" name="improvement" id="improvement">City Meetups<br>
+                <input type="checkbox" name="improvement" id="improvement">Wiki<br>
+                <input type="checkbox" name="improvement" id="improvement">Forum<br>
+                <input type="checkbox" name="improvement" id="improvement">Additional Courses<br>
+            </div>
+            
+            <div class="comment"><br>
+              <p>Any comments or suggestions?</p>
+              <textarea type="text" class="comment-box" name="comment" placeholder="Enter your comment here..."></textarea><br>
+              <button id="submit">Submit</button>
+      
+              </form>
+            </div>
+            
+          </body>
+      </head>
+</html>

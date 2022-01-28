@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.bg {
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(136, 136, 206, 0.7);
+    background-blend-mode: multiply;
+    font-family: 'Poppins';
+  }
+  
+  
+  #title {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins';
+  }
+  
+  .sub {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins';
+  }
+  
+  #form {
+    background-color: #1b1b32;
+    margin: auto; 
+    border: auto;
+    border-radius: 25px;
+    width: 640px;
+    height: 1344.910px;
+   padding-top: 40px;
+    padding-bottom: 40px;
+  padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  
+  label {
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: white;
+    margin: 0px, 0px, 8px;
+  }
+  
+ #fname {
+    width: 632px;
+    height: 38px;
+    background-color: white;
+    padding: 6px, 12px, 6px, 12px;
+    border-radius: 10px;
+  }
+  input[placeholder='Enter your name'] {
+      padding-left: 10px;
+      font-size: 16px;
+
+  }
+
+  #email {
+    width: 632px;
+    height: 38px;
+    background-color: white;
+    padding: 6px, 12px, 6px, 12px;
+    border-radius: 10px;
+  }
+  input[placeholder='Enter your Email'] {
+        padding-left: 10px;
+        font-size: 16px;
+
+  }
+
+  #age {
+    width: 632px;
+    height: 38px;
+    background-color: white;
+    padding: 6px, 12px, 6px, 12px;
+    border-radius: 10px;
+  }
+
+  input[placeholder='Age'] {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+
+    #role{
+    width: 632px;
+    height: 38px;
+    background-color: white;
+    padding: 6px, 12px, 6px, 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Poppins';
+  }
+
+
+
+ #recommendation {
+    display:inline-flex;
+    margin-right: 10px;
+    font-size: 20px;
+    color:white;
+      width: 20px;
+      height: 20px;
+  } 
+
+
+
+.rec {
+  color: white;
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+
+label[for="recommendation"] {
+  font-size:18px;
+  vertical-align: middle;
+}
+  
+input[type="radio"]{
+  vertical-align: bottom;
+}
+
+  #favorites {
+    width: 632px;
+    height: 38px;
+    background-color: white;
+    padding: 6px, 12px, 6px, 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Poppins';
+  }
+
+
+  #improvement {
+    display:inline-flex;
+    margin-right: 10px;
+    font-size: 20px;
+    color:white;
+      width: 20px;
+      height: 20px;
+  }
+
+  .improve {
+    color:white;
+    font-family: 'Poppins';
+    font-size: 16px;
+    vertical-align: middle;
+  }
+
+  label[for="improvement"]{
+    font-size:18px;
+  vertical-align: middle;
+  }
+
+  input[type="checkbox"]{
+    vertical-align: middle;
+    zoom: 1.5;
+
+  }
+p {
+  color:white;
+  font-size: 18px;
+
+}
+
+
+
+.comment-box {
+  width: 600px;
+  height: 100px;
+  color:black;
+  font-family: 'Poppins';
+  font-size: 16px;
+ }
+
+ #submit {
+   width: 600px;
+   height: 49.39px;
+   background-color: #37af65;
+   color:white;
+   font-size: 18px;
+   font-family: 'Poppins';
+   padding: 12px;
+   text-align: center;
+  
+ }
+
+#submit:hover{
+  cursor: pointer;
+  background-color:darkcyan;
+}
